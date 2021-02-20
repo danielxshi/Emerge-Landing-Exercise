@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("assets/font/Altero-Outline.otf");
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #efefef;
+    font-size: 16pt;
+    font-family: 'Mulish', sans-serif;
+    color: #312E37;
+}
+
+h1, h2, h3{
+    /* font-family: 'CustomFont', Fallback, sans-serif; */
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#312E37;
+}
+
+p{
+    max-width: 30em;
+}
+
+p.body-text{
+    margin-top: 0.5em;
+}
+
+.default-btn{
+    text-align: center;
+    min-width: 100pt;
+    padding: 20px;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease-out;
+    margin: 2.5rem 0 0 0;
+}
+
+.shop-cta-primary{
+    background-color: #F56F54;
+    color: #fefefe;
+    margin-right: 1em;
+}
+
+
+.shop-cta-secondary{
+    border: 2pt solid #F56F54;
+    color: #F56F54;
+}
+
+.primary-btn{
+    background-color: #efefef;
+    box-shadow: 8px 8px 16px #CBCBCB,
+    -8px -8px 16px #ffffff;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a.primary-btn:hover{
+    color: #F56F54;
+    transition-duration: 125ms;
+}
+
+.content-main{
+    margin-left: 15vw;
+    margin-top: 50vh;
+}
+
+a.primary-btn:active{
+    box-shadow: inset -3px -3px 5px #FAFBFF,
+    inset 8px 8px 10px #CBCBCB;
+    color: #F56F54;
+}
+
+a.secondary-btn{
+    font-family: 'Mulish', sans-serif;
+    font-size: 32pt;
+    min-width: 110px;
+    padding: 0.25em 0.5em;
+    margin-left: -0.5em;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+a.secondary-btn:hover {
+    color: #F56F54;
+}
+
+a.secondary-btn:active {
+    color: #F56F54;
+    box-shadow: inset -2px -2px 3px #FAFBFF,
+    inset 3px 3px 6px #BEBEBE;
+}
+
+/* ---- media.html ---- */
+aside{
+    margin-top: 30vh;
+    margin-left: 15vw;
+    z-index: 99;
+}
+
+h1.media-title{
+    z-index: -1;
+    text-align: center;
+    position: fixed;
+    -webkit-text-stroke: 2pt #312E37;
+    -webkit-text-fill-color: #efefef;
+    font-size: 18em;
+    opacity: 0.2;
+    overflow: hidden;
+    letter-spacing: 0pt;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header{
+    text-align: center;
+    margin-top: 1em;
+}
+
+header nav a {
+    list-style: none;
+    margin: 0 3em;
+    color: #fefefe;
+}
+
+.landing-pg{
+    background-image: url("assets/images/pexels-melvin-buezo-2529159.jpg");
+    /* background-image: url("assets/images/pexels-roberto-shumski-6102706.jpg"); */
+
+    color:#fefefe;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 99;
+}
+
+.overlay{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+video {
+    z-index: -3;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+
+
+
+
+/* ---- end of media.html ---- */
+
